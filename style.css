@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+h2{
+    font-family: raleway;
+    padding: 1%;
+    background-color: rgb(153, 153, 153);
+    font-size: 18px;
+}
+.tareas{
+    margin: 2%;
+    height: 90vh;
+    background-color: rgba(255, 228, 196, 0);
+    display: flex;
+    justify-content: space-between;
+}
+.parteuno{
+    width: 33%;
+    background-color: rgba(0, 255, 255, 0);
+}
+.partedos{
+    width: 33%;
+    background-color: rgb(207, 207, 207);
+    border-radius: 10px;
+    font-family: raleway;
+}
+.partetres{
+    width: 33%;
+    background-color: rgb(207, 207, 207);
+    border-radius: 10px;
+    font-family: raleway;
+}
+.todo{
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    flex-direction: column;
+    margin-top: 12%;
+    height: 360px;
+    margin: 2%;
+    overflow-y: scroll;
+}
+.todo::-webkit-scrollbar{
+    display: none;
+}
+.todo div{
+    margin-top: 3%;
+    margin: 2%;
+    background-color:white;
+    padding: 3%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+    box-shadow: 1px 3px 1px 1px rgb(158, 158, 158);
+    font-family: raleway;
+    display: flex;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+#taskInput{
+    font-family: raleway;
+    padding-bottom: 15%;
+    border-radius: 10px;
+    border-color: transparent;
+    text-align: center;
+    box-shadow: 1px 3px 1px 1px rgb(158, 158, 158);
+}
+#publishBtn{
+    margin-top: 2%;
+    width: 40%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: blue;
+    font-family: raleway;
+    color: white;
+}
+
+.parahacer h3{
+    font-family: raleway;
+    margin: 3%;
+    margin-top: 4%;
+    font-size: 90%;
+    background-color: rgba(223, 167, 167, 0);
+}
+.parahacer{
+    background-color: rgb(207, 207, 207);
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+}
+#redtodo{
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    border: 0px;
+    border-color: transparent;
+    margin-top: 20%;
+    margin-left: 55%;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+#bluetodo{
+    background-color: rgb(55, 0, 255);
+    height: 30px;
+    width: 30px;
+    border: 0px;
+    border-color: transparent;
+    margin-top: 20%;
+    border-radius: 5px;
+}
+div img{
+    height: 30%;
+    width: 10%;
+}
+.partedos h3{
+    font-size: 90%;
+    margin: 3%;
+    margin-top: 4%;
+}
+.partetres h3{
+    font-size: 90%;
+    margin: 3%;
+    margin-top: 4%;
+}
